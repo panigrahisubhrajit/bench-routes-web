@@ -60,15 +60,37 @@ class HomeSplash extends React.Component {
 
     return (
       <SplashContainer>
-        <Logo img_src={`${baseUrl}img/undraw_monitor.svg`} />
-        <div className="inner">
-          <ProjectTitle siteConfig={siteConfig} />
-          <PromoSection>
-            <Button href="#try">Try It Out</Button>
-            <Button href={docUrl('doc1.html')}>Example Link</Button>
-            <Button href={docUrl('doc2.html')}>Example Link 2</Button>
-          </PromoSection>
+      <div className="index-hero">
+      <div className="index-hero-inner">
+        <h1 className="index-hero-project-tagline">
+          <img
+            alt="Logo"
+            className="index-hero-logo"
+            src={`${siteConfig.baseUrl}img/docusaurus_keytar.svg`}
+          />
+          {siteConfig.title} monitors and benchmarks your routes.{' '}
+          {/*<span className="index-hero-project-keywords">Open Source</span>{' '}
+          documentation websites.*/}
+        </h1>
+        <div className="index-ctas">
+          <a
+            className="button index-ctas-get-started-button"
+            href={`${siteConfig.baseUrl}docs/${language}/installation`}>
+            <div>Get Started</div>
+          </a>
+          <span className="index-ctas-github-button">
+            <iframe
+              src="https://ghbtns.com/github-btn.html?user=zairza-cetb&amp;repo=bench-routes&amp;type=star&amp;count=true&amp;size=large"
+              frameBorder={0}
+              scrolling={0}
+              width={160}
+              height={30}
+              title="GitHub Stars"
+            />
+          </span>
         </div>
+      </div>
+      </div>
       </SplashContainer>
     );
   }
