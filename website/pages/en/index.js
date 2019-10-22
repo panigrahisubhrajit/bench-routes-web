@@ -67,12 +67,13 @@ class HomeSplash extends React.Component {
           <img
             alt="Logo"
             className="index-hero-logo"
-            src={`${siteConfig.baseUrl}img/docusaurus_keytar.svg`}
+            // src={`${siteConfig.baseUrl}img/docusaurus_keytar.svg`}
+            src="https://www.brandcrowd.com/gallery/brands/pictures/picture13274446056474.png"
           />
           Monitor and benchmark your routes{' '}
-          with <span className="index-hero-site-title">{siteConfig.title}</span>
-          {/*<span className="index-hero-project-keywords">Open Source</span>{' '}
-          documentation websites.*/}
+          with <span className="index-hero-site-title">{siteConfig.title}.{' '}</span>
+          <span className="index-hero-project-keywords">Open Source</span>{' '}
+          tool.
         </h1>
         <div className="index-ctas">
           <a
@@ -89,11 +90,30 @@ class HomeSplash extends React.Component {
               height={30}
               title="GitHub Stars"
             />
+            {/* <iframe 
+              src="https://ghbtns.com/github-btn.html?user=zairza-cetb&repo=bench-routes&type=watch&count=true&size=large&v=2" 
+              frameborder="0" 
+              scrolling="0" 
+              width="160px" 
+              height="30px"/> */}
           </span>
         </div>
       </div>
       </div>
       {/* Hero Image end */}
+      {/* Important announcements */}
+      <div className="index-hero" style={{backgroundColor:`black`}}>
+      <div className="index-hero-inner">
+        <h1 
+          className="index-hero-project-tagline" 
+          style={{fontSize: `20px`, textAlign: `center`}}>
+          {/* Enter announcement here */}
+          We are releasing <span className="index-hero-site-title">v1.0{' '}</span> 
+          for bench-routes
+        </h1>
+      </div>
+      </div>
+      {/* Announcements end */}
       </SplashContainer>
     );
   }
