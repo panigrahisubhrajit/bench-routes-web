@@ -1,4 +1,7 @@
 # bench-routes-web
+
+[![Now](https://img.shields.io/badge/deployed%20using-now-green)](https://bench-routes-dt2rzpu66.now.sh/)
+
 Website for [Bench-routes](https://github.com/zairza-cetb/bench-routes)
 
 ## How to run
