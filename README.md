@@ -1,12 +1,9 @@
 # bench-routes-web
-website for bench-routes
-
-## Pre-Requisites
-- `yarn global add docusaurus-init` or `npm install --global docusaurus-init`
-
+Website for [Bench-routes](https://github.com/zairza-cetb/bench-routes)
 
 ## How to run
 ```
-- cd website/
-- yarn start
+cd website/
+npm install
+npm start
 ```
