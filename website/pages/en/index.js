@@ -75,7 +75,7 @@ class HomeSplash extends React.Component {
           <span className="index-hero-project-keywords">Open Source</span>{' '}
           tool.
         </h1>
-        <div className="index-ctas">
+        <div className="index-ctas" style={{textAlign:`left`}}>
           <a
             className="button index-ctas-get-started-button"
             href={`${siteConfig.baseUrl}docs/${language}/installation`}>
