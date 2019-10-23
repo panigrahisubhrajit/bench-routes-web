@@ -106,10 +106,23 @@ class HomeSplash extends React.Component {
       <div className="index-hero-inner">
         <h1 
           className="index-hero-project-tagline" 
-          style={{fontSize: `20px`, textAlign: `center`}}>
+          style={{fontSize: `40px`, textAlign: `center`}}>
           {/* Enter announcement here */}
-          We are releasing <span className="index-hero-site-title">v1.0{' '}</span> 
-          for bench-routes
+          Get <span className="index-hero-site-title">bench routes{' '}</span>for your platform.<br/>
+            {/* Supported platforms */}
+            <img src="https://img.shields.io/static/v1?label=Linux&message=amd64&color=lightgrey&logo=Linux&style=for-the-badge"/>{' '}{' '}
+            <img src="https://img.shields.io/static/v1?label=Linux&message=ppc64&color=lightgrey&logo=Linux&style=for-the-badge"/>{' '}{' '}
+            <img src="https://img.shields.io/static/v1?label=Linux&message=mips64&color=lightgrey&logo=Linux&style=for-the-badge"/>{' '}{' '}
+            <img src="https://img.shields.io/static/v1?label=Darwin&message=amd64&color=lightgrey&logo=Apple&style=for-the-badge"/>{' '}{' '}
+            <img src="https://img.shields.io/static/v1?label=Windows&message=amd64&color=lightgrey&logo=Windows&style=for-the-badge"/>{' '}{' '}
+            <img src="https://img.shields.io/static/v1?label=FreeBSD&message=amd64&color=lightgrey&logo=FreeBSD&style=for-the-badge"/>{' '}{' '}
+            <img src="https://img.shields.io/static/v1?label=NetBSD&message=amd64&color=lightgrey&logo=Simple%20Icons&style=for-the-badge"/>{' '}{' '}
+            <img src="https://img.shields.io/static/v1?label=OpenBSD&message=amd64&color=lightgrey&logo=OpenSUSE&style=for-the-badge"/>{' '}{' '}
+            <img src="https://img.shields.io/static/v1?label=NetBSD&message=amd64&color=lightgrey&logo=Simple%20Icons&style=for-the-badge"/>{' '}{' '}
+            <img src="https://img.shields.io/static/v1?label=Dragonfly&message=amd64&color=lightgrey&logo=Simple%20Icons&style=for-the-badge"/>{' '}{' '}
+            <img src="https://img.shields.io/static/v1?label=Plan9&message=amd64/386&color=lightgrey&logo=Simple%20Icons&style=for-the-badge"/>{' '}{' '}
+            <img src="https://img.shields.io/static/v1?label=Solaris&message=amd64&color=lightgrey&logo=Simple%20Icons&style=for-the-badge"/>{' '}{' '}
+            {/* Supported Platforms end */}
         </h1>
       </div>
       </div>

@@ -21,7 +21,7 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Bench Routes', // Title for your website.
+  title: 'bench-routes', // Title for your website.
   tagline: 'Benchmark for your routes',
   url: 'https://www.bench-routes.io', // Your website URL
   baseUrl: '/', // Base URL for your project */
