@@ -57,6 +57,8 @@
   .homeContainer .homeWrapper {
     padding-left: 0px;
     padding-right: 0px;
+    margin:0;
+    max-width: 100%;
   }
 
   .homeContainer .homeWrapper {

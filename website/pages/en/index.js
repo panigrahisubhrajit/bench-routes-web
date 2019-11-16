@@ -71,9 +71,9 @@ class HomeSplash extends React.Component {
             src="https://www.brandcrowd.com/gallery/brands/pictures/picture13274446056474.png"
           />
           Monitor and benchmark your routes{' '}
-          with <span className="index-hero-site-title">{siteConfig.title}.{' '}</span>
-          <span className="index-hero-project-keywords">Open Source</span>{' '}
-          tool.
+          with <span className="index-hero-site-title">Bench routes{', '}</span>
+          <span className="index-hero-project-keywords">An Open Source</span>{' '}
+          tool written in Golang.
         </h1>
         <div className="index-ctas" style={{textAlign:`left`}}>
           <a
@@ -108,7 +108,7 @@ class HomeSplash extends React.Component {
           className="index-hero-project-tagline" 
           style={{fontSize: `40px`, textAlign: `center`}}>
           {/* Enter announcement here */}
-          Get <span className="index-hero-site-title">bench routes{' '}</span>for your platform.<br/>
+          Ships for <span className="index-hero-site-title">sixteen{' '}</span>platforms.<br/>
             {/* Supported platforms */}
             <img src="https://img.shields.io/static/v1?label=Linux&message=amd64&color=lightgrey&logo=Linux&style=for-the-badge"/>{' '}{' '}
             <img src="https://img.shields.io/static/v1?label=Linux&message=ppc64&color=lightgrey&logo=Linux&style=for-the-badge"/>{' '}{' '}
