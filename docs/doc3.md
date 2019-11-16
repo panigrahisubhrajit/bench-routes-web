@@ -1,13 +1,36 @@
 ---
-id: doc3
-title: This is document number 3
+id: doc3 
+title: Overview, Goals and Learning
+sidebar_label: Overview, Goals and Learning
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac euismod odio, eu consequat dui. Nullam molestie consectetur risus id imperdiet. Proin sodales ornare turpis, non mollis massa ultricies id. Nam at nibh scelerisque, feugiat ante non, dapibus tortor. Vivamus volutpat diam quis tellus elementum bibendum. Praesent semper gravida velit quis aliquam. Etiam in cursus neque. Nam lectus ligula, malesuada et mauris a, bibendum faucibus mi. Phasellus ut interdum felis. Phasellus in odio pulvinar, porttitor urna eget, fringilla lectus. Aliquam sollicitudin est eros. Mauris consectetur quam vitae mauris interdum hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
-Duis et egestas libero, imperdiet faucibus ipsum. Sed posuere eget urna vel feugiat. Vivamus a arcu sagittis, fermentum urna dapibus, congue lectus. Fusce vulputate porttitor nisl, ac cursus elit volutpat vitae. Nullam vitae ipsum egestas, convallis quam non, porta nibh. Morbi gravida erat nec neque bibendum, eu pellentesque velit posuere. Fusce aliquam erat eu massa eleifend tristique.
+## Overview
+<p>
+        Monitoring has been tough and with the increase in the routes used in any sophisticated project, the performance and metrics of an application are seriously affected. With an increase in server computational models, the probability of a complete request-response cycle without any throws is nowhere close to 1. </p>
 
-Sed consequat sollicitudin ipsum eget tempus. Integer a aliquet velit. In justo nibh, pellentesque non suscipit eget, gravida vel lacus. Donec odio ante, malesuada in massa quis, pharetra tristique ligula. Donec eros est, tristique eget finibus quis, semper non nisl. Vivamus et elit nec enim ornare placerat. Sed posuere odio a elit cursus sagittis.
+<p>     <strong>bench-routes</strong> acts as a routes-benchmarking, monitoring, and route-network analysis tool. It monitors the routes of the application   
+	    and analyses the network pipe between the server-client.</p>
 
-Phasellus feugiat purus eu tortor ultrices finibus. Ut libero nibh, lobortis et libero nec, dapibus posuere eros. Sed sagittis euismod justo at consectetur. Nulla finibus libero placerat, cursus sapien at, eleifend ligula. Vivamus elit nisl, hendrerit ac nibh eu, ultrices tempus dui. Nam tellus neque, commodo non rhoncus eu, gravida in risus. Nullam id iaculis tortor.
 
-Nullam at odio in sem varius tempor sit amet vel lorem. Etiam eu hendrerit nisl. Fusce nibh mauris, vulputate sit amet ex vitae, congue rhoncus nisl. Sed eget tellus purus. Nullam tempus commodo erat ut tristique. Cras accumsan massa sit amet justo consequat eleifend. Integer scelerisque vitae tellus id consectetur.
+## Goals
+
+1. Benchmark route
+     - Load-handling of application on the individual route.
+     - Test various possibilities of data in params (Permutate params), like sending an empty param to see how the server response behaves.
+2. Analyse network performance of the hosted application irrespectively of containerization
+     - Network ping
+     - Jitter analysis
+     - Packet loss
+3. Log error handling capability of the application
+4. Maintain a check on server-route output and alert on changes above the threshold
+5. Graphical view using ElectronJS
+
+## Learning
+
+1. Analysis of network-based calculations
+2. Intensive use of channels (golang)
+3. Familiarity with monitoring concepts
+4. Time-series database(tsdb) [basic as of now]
+5. Stronghold on Golang
+6. Extensive use of go-subroutines
+7. Simple blockchain concepts

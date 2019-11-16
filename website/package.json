@@ -11,5 +11,5 @@
   "devDependencies": {
     "docusaurus": "^1.14.0"
   },
-  "license" : "BSD-3-Clause"
+  "license": "BSD-3-Clause"
 }
